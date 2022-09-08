@@ -2,6 +2,8 @@
 
 	* NEWS: Version 1.16
 
+	* compatibility for php8.1
+
 2014-09-30  Simon Josefsson <simon@josefsson.org>
 
 	* NEWS: Version 1.15.
