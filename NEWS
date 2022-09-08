@@ -1,3 +1,7 @@
+* Version 1.16 (released 2022-09-08)
+
+  * added changes from upstream since 1.15
+
 * Version 1.15 (released 2014-09-30)
 
   * Fix boolean SQL portability issue for Oracle.
