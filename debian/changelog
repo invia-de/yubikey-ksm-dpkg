@@ -1,5 +1,6 @@
-yubikey-ksm (1.16-1) unstable; urgency=low
+yubikey-ksm (1.16-1+nmu1) unstable; urgency=low
 
+  * Non-maintainer upload.
   * New upstream version. (everything since 1.15)
   * php8.1 compatibility
 

@@ -86,7 +86,8 @@ $(PACKAGE)-$(VERSION).tgz: $(FILES) $(MANS)
 	cp $(CODE) $(PACKAGE)-$(VERSION)/
 	cp $(MANS) $(PACKAGE)-$(VERSION)/
 	cp $(DOCS) $(PACKAGE)-$(VERSION)/doc/
-	git2cl > $(PACKAGE)-$(VERSION)/ChangeLog
+	#git2cl > $(PACKAGE)-$(VERSION)/ChangeLog
+	cp ChangeLog $(PACKAGE)-$(VERSION)/ChangeLog
 	tar cfz $(PACKAGE)-$(VERSION).tgz $(PACKAGE)-$(VERSION)
 	rm -rf $(PACKAGE)-$(VERSION)
 
